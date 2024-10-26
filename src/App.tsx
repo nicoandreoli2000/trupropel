@@ -1,5 +1,5 @@
 import { Flex, Text } from "@chakra-ui/react";
-import { useLocations } from "./api/locations";
+import { useLocations } from "./api";
 import { PropsWithChildren } from "react";
 
 function App() {

@@ -3,7 +3,7 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App.tsx";
 import "./index.css";
-import { Provider } from "./components/ui/provider.tsx";
+import { Provider } from "./components";
 
 const client = new ApolloClient({
   uri: "https://flyby-router-demo.herokuapp.com/",
