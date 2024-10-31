@@ -6,7 +6,7 @@ import "./index.css";
 import { Provider } from "./components";
 
 const client = new ApolloClient({
-  uri: "https://flyby-router-demo.herokuapp.com/",
+  uri: "https://rickandmortyapi.com/graphql/",
   cache: new InMemoryCache(),
 });
 
